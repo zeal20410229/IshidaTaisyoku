@@ -288,11 +288,10 @@ def main():
             # 決定木のツリーを出力
             st.caption('')
             st.caption('決定木の可視化')
-            st_display_dtree(clf,features=train_X.)
+            st_display_dtree(clf,features=train_X.columns)
 
         else:
             st.subheader('訓練用データをアップロードしてください')
-
 
 
 if __name__ == "__main__":
